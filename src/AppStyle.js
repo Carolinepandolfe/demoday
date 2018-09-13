@@ -13,7 +13,7 @@ const AppStyle = {
     },
 
     TelaDinamica: {
-        padding: 30
+        padding: '15px 30px 15px 30px'
     }
 }
 
