@@ -3,6 +3,7 @@ import AppStyle from './AppStyle';
 import Menu from './componets/Menu/Menu';
 import ModulosHome from './componets/ModulosHome/ModulosHome';
 import ObetivosHome from './componets/ObjetivosHome/ObjetivosHome';
+import CarteiraHome from './componets/CarteiraHome/CarteiraHome';
 
 class App extends Component {
   render() {
@@ -17,8 +18,14 @@ class App extends Component {
           <ModulosHome />
         </div>
 
-        <div style={AppStyle.TelaDinamica}>
-          <ObetivosHome/>  
+        <div style={AppStyle.CorpoDinamicoHorizontal}>
+          <div style={AppStyle.TelaDinamica}>
+            <ObetivosHome/>  
+          </div>
+
+          <div style={AppStyle.TelaDinamica}>
+            <CarteiraHome/>  
+          </div>
         </div>
       </div>
 

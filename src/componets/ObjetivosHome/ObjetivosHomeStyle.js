@@ -5,8 +5,9 @@ let corBranca = '#fff';
 const ObjetivosHomeStyle = {
     Painel: {
         backgroundColor: corBranca,
-        width: '45%',
+        width: 705,
         padding: 30,
+        marginRight: 30,
         borderRadius: 20,
         boxShadow: '5px 0.9px 50px rgba(0, 0, 0, 0.1)'
     },

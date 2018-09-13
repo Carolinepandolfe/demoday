@@ -1,19 +1,20 @@
 const AppStyle = {
     Corpo: {
-        display: 'flex'
+        display: 'flex',
     },
 
     CorpoDinamico: {
         display: 'flex',
-        flexDirection: 'column'
+        flexDirection: 'column',
+        padding: 30
+    },
+
+    CorpoDinamicoHorizontal: {
+        display: 'flex'
     },
 
     Menu: {
         display: 'fixed'
-    },
-
-    TelaDinamica: {
-        padding: '15px 30px 15px 30px'
     }
 }
 
