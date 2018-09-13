@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import AppStyle from './AppStyle';
 import Menu from './componets/Menu/Menu';
 import ModulosHome from './componets/ModulosHome/ModulosHome';
+import ObetivosHome from './componets/ObjetivosHome/ObjetivosHome';
 
 class App extends Component {
   render() {
@@ -11,9 +12,16 @@ class App extends Component {
           <Menu />
         </aside>
 
+      <div style={AppStyle.CorpoDinamico}>
         <div style={AppStyle.TelaDinamica}>
           <ModulosHome />
         </div>
+
+        <div style={AppStyle.TelaDinamica}>
+          <ObetivosHome/>  
+        </div>
+      </div>
+
       </body>
     );
   }

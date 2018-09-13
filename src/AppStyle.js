@@ -3,6 +3,11 @@ const AppStyle = {
         display: 'flex'
     },
 
+    CorpoDinamico: {
+        display: 'flex',
+        flexDirection: 'column'
+    },
+
     Menu: {
         display: 'fixed'
     },
