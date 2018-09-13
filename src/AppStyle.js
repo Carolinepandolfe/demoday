@@ -1,20 +1,24 @@
 const AppStyle = {
     Corpo: {
         display: 'flex',
-    },
-
-    CorpoDinamico: {
-        display: 'flex',
-        flexDirection: 'column',
-        padding: 30
-    },
-
-    CorpoDinamicoHorizontal: {
-        display: 'flex'
+        justifyContent: 'space-between'
     },
 
     Menu: {
-        display: 'fixed'
+        position: 'fixed',
+    },
+
+    Alinhar: {
+        display: 'flex',
+        justifyContent: 'center',
+        width: '90%',
+        marginLeft: 300
+    },
+
+    Dinamico: {
+        width: '100%',
+        justifyContent: 'center',
+        
     }
 }
 

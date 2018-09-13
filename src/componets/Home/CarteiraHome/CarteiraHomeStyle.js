@@ -5,7 +5,7 @@ let corBranca = '#fff';
 const CarteiraHomeStyle = {
     Painel: {
         backgroundColor: corBranca,
-        width: 705,
+        width: '90%',
         padding: 30,
         borderRadius: 20,
         boxShadow: '5px 0.9px 50px rgba(0, 0, 0, 0.1)'

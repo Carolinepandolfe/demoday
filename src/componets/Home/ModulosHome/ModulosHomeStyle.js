@@ -8,7 +8,8 @@ const ModulosHomeStyle = {
         padding: 30,
         marginBottom: 30,
         borderRadius: 20,
-        boxShadow: '5px 0.9px 50px rgba(0, 0, 0, 0.1)'
+        boxShadow: '5px 0.9px 50px rgba(0, 0, 0, 0.1)',
+        width: '95%'
     },
 
     ProgressBar: {

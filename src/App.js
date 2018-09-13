@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import AppStyle from './AppStyle';
 import Menu from './componets/Menu/Menu';
-import ModulosHome from './componets/ModulosHome/ModulosHome';
-import ObetivosHome from './componets/ObjetivosHome/ObjetivosHome';
-import CarteiraHome from './componets/CarteiraHome/CarteiraHome';
+import Home from './componets/Home/Home';
+import Modulos from './componets/Modulos/Modulos';
 
 class App extends Component {
   render() {
@@ -13,21 +12,12 @@ class App extends Component {
           <Menu />
         </aside>
 
-      <div style={AppStyle.CorpoDinamico}>
-        <div style={AppStyle.TelaDinamica}>
-          <ModulosHome />
-        </div>
-
-        <div style={AppStyle.CorpoDinamicoHorizontal}>
-          <div style={AppStyle.TelaDinamica}>
-            <ObetivosHome/>  
-          </div>
-
-          <div style={AppStyle.TelaDinamica}>
-            <CarteiraHome/>  
+        <div style={AppStyle.Alinhar}>
+          <div style={AppStyle.Dinamico}>
+            {/* <Home /> */}
+            {/* <Modulos /> */}
           </div>
         </div>
-      </div>
 
       </body>
     );
