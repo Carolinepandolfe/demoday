@@ -5,7 +5,6 @@ let corBranca = '#fff';
 const ModulosStyle = {
 
     CorpoDinamico: {
-        width: '96%',
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent: 'space-evenly',
@@ -19,7 +18,7 @@ const ModulosStyle = {
         alignItems: 'center',
         justifyContent: 'space-evenly',
         textAlign: 'center',
-        width: 300,
+        width: '25%',
         height: 450,
         padding: 30,
         marginBottom: 30,

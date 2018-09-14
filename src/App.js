@@ -15,7 +15,7 @@ class App extends Component {
         <div style={AppStyle.Alinhar}>
           <div style={AppStyle.Dinamico}>
             {/* <Home /> */}
-            {/* <Modulos /> */}
+            <Modulos />
           </div>
         </div>
 
