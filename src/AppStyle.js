@@ -12,7 +12,8 @@ const AppStyle = {
         display: 'flex',
         justifyContent: 'center',
         width: '90%',
-        marginLeft: 300
+        marginLeft: 300,
+        padding: 30
     },
 
     Dinamico: {
