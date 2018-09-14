@@ -3,6 +3,7 @@ import AppStyle from './AppStyle';
 import Menu from './componets/Menu/Menu';
 import Home from './componets/Home/Home';
 import Modulos from './componets/Modulos/Modulos';
+import Amigos from './componets/Amigos/Amigos';
 
 class App extends Component {
   render() {
@@ -16,9 +17,11 @@ class App extends Component {
           <div style={AppStyle.Dinamico}>
             {/* <Home /> */}
             {/* <Modulos /> */}
+            <Amigos/>
+
           </div>
         </div>
-
+      
       </body>
     );
   }
