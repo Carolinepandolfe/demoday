@@ -13,7 +13,8 @@ const InfoPrincipal = {
         backgroundColor: corBranca,
         width: '27%',
         borderRadius: 20,
-        padding: '20px 30px'
+        padding: '20px 30px',
+        boxShadow: '5px 0.9px 50px rgba(0, 0, 0, 0.1)'
     },
 
     Titulo: {

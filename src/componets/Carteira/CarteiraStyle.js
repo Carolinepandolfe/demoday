@@ -1,6 +1,7 @@
 const HomeStyle = {
     Corpo: {
         display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'center',
         maxWidth: '100%'
     },
