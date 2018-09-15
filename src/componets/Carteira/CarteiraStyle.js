@@ -3,7 +3,7 @@ const HomeStyle = {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
-        maxWidth: '100%'
+        width: '100%'
     },
 
     CorpoDinamico: {
@@ -11,8 +11,7 @@ const HomeStyle = {
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'column',
-        width: '100%',
-        padding: 30
+        width: '100%'
     },
 
     TelaDinamica: {

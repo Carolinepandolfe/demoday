@@ -8,7 +8,7 @@ const ModulosStyle = {
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent: 'space-evenly',
-        padding: 30
+        width: '100%'
     },
 
     Painel: {
