@@ -20,7 +20,7 @@ class App extends Component {
             {/* <Modulos /> */}
             {/* <Amigos/> */}
             {/* <Modulos /> */}
-            <Carteira />
+            {/* <Carteira /> */}
           </div>
         </div>
       

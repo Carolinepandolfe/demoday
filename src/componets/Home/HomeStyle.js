@@ -10,8 +10,7 @@ const HomeStyle = {
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'column',
-        width: '100%',
-        padding: 30
+        width: '100%'
     },
 
     TelaDinamica: {
