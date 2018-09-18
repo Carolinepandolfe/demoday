@@ -1,41 +1,41 @@
 import React, { Component } from 'react';
-import ObetivosHomeStyle from './ObjetivosHomeStyle';
+import ObjetivosHomeStyle from './ObjetivosHomeStyle';
 
-class ObetivosHome extends Component {
+class ObjetivosHome extends Component {
   render() {
     return (
-        <div style={ObetivosHomeStyle.Painel}>
-            <h2 style={ObetivosHomeStyle.NomeModulo}>Objetivos</h2>
-            <div style={ObetivosHomeStyle.ObjetivoItem}>
-                <div style={ObetivosHomeStyle.ObjetivoCheckbox}></div>
+        <div style={ObjetivosHomeStyle.Painel}>
+            <h2 style={ObjetivosHomeStyle.NomeModulo}>Objetivos</h2>
+            <div style={ObjetivosHomeStyle.ObjetivoItem}>
+                <div style={ObjetivosHomeStyle.ObjetivoCheckbox}></div>
                 <div>
-                    <h3 style={ObetivosHomeStyle.NomeModulo}>Objetivo 1</h3>
+                    <h3 style={ObjetivosHomeStyle.NomeModulo}>Objetivo 1</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium ipsam necessitatibus accusantium magni.</p>
                 </div>
             </div>
 
-            <div style={ObetivosHomeStyle.ObjetivoItem}>
-                <div style={ObetivosHomeStyle.ObjetivoCheckbox}></div>
+            <div style={ObjetivosHomeStyle.ObjetivoItem}>
+                <div style={ObjetivosHomeStyle.ObjetivoCheckbox}></div>
                 <div>
-                    <h3 style={ObetivosHomeStyle.NomeModulo}>Objetivo 2</h3>
+                    <h3 style={ObjetivosHomeStyle.NomeModulo}>Objetivo 2</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium ipsam necessitatibus accusantium magni.</p>
                 </div>
             </div>
 
-            <div style={ObetivosHomeStyle.ObjetivoItem}>
-                <div style={ObetivosHomeStyle.ObjetivoCheckbox}></div>
+            <div style={ObjetivosHomeStyle.ObjetivoItem}>
+                <div style={ObjetivosHomeStyle.ObjetivoCheckbox}></div>
                 <div>
-                    <h3 style={ObetivosHomeStyle.NomeModulo}>Objetivo 3</h3>
+                    <h3 style={ObjetivosHomeStyle.NomeModulo}>Objetivo 3</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium ipsam necessitatibus accusantium magni.</p>
                 </div>
             </div>
 
-            <div style={ObetivosHomeStyle.BotaoAlinhamento}>
-                <button style={ObetivosHomeStyle.Botao}>Saiba Mais</button>
+            <div style={ObjetivosHomeStyle.BotaoAlinhamento}>
+                <button style={ObjetivosHomeStyle.Botao}>Saiba Mais</button>
             </div>
         </div>
     );
   }
 }
 
-export default ObetivosHome;
+export default ObjetivosHome;
