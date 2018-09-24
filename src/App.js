@@ -38,7 +38,7 @@ class App extends Component {
                 <Route exact path="/Modulos" component={Modulos}/>
                 <Route exact path="/Amigos" component={Amigos}/>
                 <Route exact path="/Carteira" component={Carteira}/>
-                <Route exact path="/Obejtivo" component={Objetivo}/>
+                <Route exact path="/Objetivos" component={Objetivo}/>
               </div>
             </div>
           </div>
