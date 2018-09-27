@@ -17,6 +17,21 @@ const ModulosHomeStyle = {
         alignItems: 'center'
     },
 
+    OutsideBar: {
+        width: '93%',
+        backgroundColor: '#f5f5f5',
+        height: 20,
+        borderRadius: 10,
+        marginRight: '2%'
+    },
+
+    InsideBar: {
+        width: '45%',
+        backgroundColor: corAmarelo,
+        height: 20,
+        borderRadius: 10
+    },
+
     NomeModulo: {
         color: corRoxo
     },

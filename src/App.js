@@ -11,7 +11,7 @@ import UserProfileImg from'./user-icon.png';
 class App extends Component {
   render() {
     return (
-      <body style={AppStyle.Corpo}>
+      <div style={AppStyle.Corpo}>
         <Router>
           <div>
             <aside style={AppStyle.Menu}>
@@ -31,17 +31,15 @@ class App extends Component {
             </aside>
 
             <div style={AppStyle.Alinhar}>
-              <div style={AppStyle.Dinamico}>
                 <Route exact path="/" component={Home}/>
                 <Route exact path="/Modulos" component={Modulos}/>
                 <Route exact path="/Amigos" component={Amigos}/>
                 <Route exact path="/Carteira" component={Carteira}/>
-              </div>
             </div>
           </div>
         </Router>
       
-      </body>
+      </div>
     );
   }
 }

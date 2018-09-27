@@ -7,7 +7,10 @@ class ModulosHome extends Component {
         <div style={ModulosHomeStyle.Painel}>
             <h2 style={ModulosHomeStyle.NomeModulo}>Nome do Módulo</h2>
             <div style={ModulosHomeStyle.ProgressBar}>
-                <div>Progress bar</div>
+                <div style={ModulosHomeStyle.OutsideBar}>
+                    <div style={ModulosHomeStyle.InsideBar}>
+                    </div>
+                </div>
                 <h2 style={ModulosHomeStyle.NomeModulo}>45%</h2>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id laboriosam ullam itaque, aliquid mollitia, provident praesentium quaerat voluptatem ratione commodi in dolor culpa nisi, eaque suscipit totam optio deserunt! Repellat.</p>

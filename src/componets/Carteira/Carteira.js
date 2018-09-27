@@ -8,7 +8,7 @@ import ContatosMaisAcessados from './ContatosMaisAcessados/ContatosMaisAcessados
 class Carteira extends Component {
   render() {
     return (
-      <body style={CarteiraStyle.Corpo}>
+      <div style={CarteiraStyle.Corpo}>
         <InfoPrincipal />
         <Investimentos />
 
@@ -21,7 +21,7 @@ class Carteira extends Component {
               <ContatosMaisAcessados/>  
             </div>
         </div>
-      </body>
+      </div>
     );
   }
 }

@@ -4,7 +4,7 @@ import ModulosStyle from './ModulosStyle';
 class Modulos extends Component {
   render() {
     return (
-      <body style={ModulosStyle.CorpoDinamico}>
+      <div style={ModulosStyle.CorpoDinamico}>
         <div style={ModulosStyle.Painel}>
             <div style={ModulosStyle.ModuloNumeroBox}>1</div>
             <h2 style={ModulosStyle.NomeModulo}>Nome do Módulo</h2>
@@ -58,7 +58,7 @@ class Modulos extends Component {
                 <button style={ModulosStyle.Botao}>Concluido</button>
             </div>
         </div>
-      </body>
+      </div>
     );
   }
 }
