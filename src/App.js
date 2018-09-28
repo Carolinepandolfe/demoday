@@ -4,6 +4,7 @@ import Home from './componets/Home/Home';
 import Modulos from './componets/Modulos/Modulos';
 import Amigos from './componets/Amigos/Amigos';
 import Carteira from './componets/Carteira/Carteira';
+import Objetivo from './componets/Objetivos/Objetivo';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import UserProfileImg from'./user-icon.png';
 
@@ -27,6 +28,7 @@ class App extends Component {
                   <li style={AppStyle.Link}><Link to="/Modulos">Modulos</Link></li>
                   <li style={AppStyle.Link}><Link to="/Amigos">Amigos</Link></li>
                   <li style={AppStyle.Link}><Link to="/Carteira">Carteira</Link></li>
+                  <li style={AppStyle.Link}><Link to="/Objetivos">Objetivos</Link></li>
                 </ul>
             </aside>
 
@@ -35,6 +37,8 @@ class App extends Component {
                 <Route exact path="/Modulos" component={Modulos}/>
                 <Route exact path="/Amigos" component={Amigos}/>
                 <Route exact path="/Carteira" component={Carteira}/>
+                <Route exact path="/Objetivos" component={Objetivo}/>
+            
             </div>
           </div>
         </Router>
