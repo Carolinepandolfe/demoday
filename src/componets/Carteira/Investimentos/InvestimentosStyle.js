@@ -59,6 +59,10 @@ const InvestimentosStyle = {
         fontSize: 30,
         fontWeight: 400,
         margin: 0
+    },
+
+    GraficoImg: {
+        maxWidth: 500
     }
 }
 

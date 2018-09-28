@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import InvestimentosStyle from './InvestimentosStyle';
+import Grafico from'./grafico.png';
 
 class Investimentos extends Component {
   render() {
@@ -7,6 +8,7 @@ class Investimentos extends Component {
         <div style={InvestimentosStyle.Corpo}>
             <div style={InvestimentosStyle.Grafico}>
                 <h2 style={InvestimentosStyle.EmpresasTitulo}>Investimentos</h2>
+                <img src={Grafico} style={InvestimentosStyle.GraficoImg}/>
             </div>
 
             <div style={InvestimentosStyle.Empresas}>
