@@ -8,7 +8,8 @@ const ObjetivosHomeStyle = {
         width: '90%',
         padding: 30,
         borderRadius: 20,
-        boxShadow: '5px 0.9px 50px rgba(0, 0, 0, 0.1)'
+        boxShadow: '5px 0.9px 50px rgba(0, 0, 0, 0.1)',
+        minHeight: 490
     },
 
     NomeModulo: {
@@ -42,8 +43,15 @@ const ObjetivosHomeStyle = {
         fontWeight: 600,
         fontSize: 15,
         padding: '15px 30px',
-        marginTop: 30
-    }
+        marginTop: 70
+    },
+
+    icon: {
+        width: 45,
+        height: 45,
+        marginRight: 15,
+        marginTop: 15
+      }
 }
 
 export default ObjetivosHomeStyle;

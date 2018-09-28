@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ObjetivosHomeStyle from './ObjetivosHomeStyle';
+import icon from './icon.png';
 
 class ObjetivosHome extends Component {
   render() {
@@ -7,26 +8,26 @@ class ObjetivosHome extends Component {
         <div style={ObjetivosHomeStyle.Painel}>
             <h2 style={ObjetivosHomeStyle.NomeModulo}>Objetivos</h2>
             <div style={ObjetivosHomeStyle.ObjetivoItem}>
-                <div style={ObjetivosHomeStyle.ObjetivoCheckbox}></div>
+                <img src={icon} style={ObjetivosHomeStyle.icon} />
                 <div>
                     <h3 style={ObjetivosHomeStyle.NomeModulo}>Objetivo 1</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium ipsam necessitatibus accusantium magni.</p>
+                    <p>Invista na empresa que está mais velendo em ações, para isso você tem um valor mínimo de R$500,00.</p>
                 </div>
             </div>
 
             <div style={ObjetivosHomeStyle.ObjetivoItem}>
-                <div style={ObjetivosHomeStyle.ObjetivoCheckbox}></div>
+                <img src={icon} style={ObjetivosHomeStyle.icon} />
                 <div>
                     <h3 style={ObjetivosHomeStyle.NomeModulo}>Objetivo 2</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium ipsam necessitatibus accusantium magni.</p>
+                    <p>Transfira R$80,00 para um amigo.</p>
                 </div>
             </div>
 
             <div style={ObjetivosHomeStyle.ObjetivoItem}>
-                <div style={ObjetivosHomeStyle.ObjetivoCheckbox}></div>
+                <img src={icon} style={ObjetivosHomeStyle.icon} />
                 <div>
                     <h3 style={ObjetivosHomeStyle.NomeModulo}>Objetivo 3</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis laudantium ipsam necessitatibus accusantium magni.</p>
+                    <p>Conclua um módulo com 100% de aproveitamento.</p>
                 </div>
             </div>
 
