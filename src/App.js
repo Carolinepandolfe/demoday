@@ -7,6 +7,7 @@ import Carteira from './componets/Carteira/Carteira';
 import Objetivo from './componets/Objetivos/Objetivo';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import UserProfileImg from'./user-icon.png';
+import ModulosAbertos from './componets/Modulos/ModulosAbertos/ModulosAbertos';
 
 
 class App extends Component {
@@ -19,46 +20,33 @@ class App extends Component {
 
               <div style={AppStyle.Perfil}>
                 <img src={UserProfileImg} style={AppStyle.PerfilImg} />
-                <h2 style={AppStyle.Nome}>Nome do usuário</h2>
-                <h3 style={AppStyle.Nivel}>Nível 2</h3>
+                <h2 style={AppStyle.Nome}>Fabiano</h2>
+                <h3 style={AppStyle.Nivel}>Nível 5</h3>
               </div>
 
-<<<<<<< HEAD
-        <div style={AppStyle.Alinhar}>
-          <div style={AppStyle.Dinamico}>
-            {/* <Home /> */}
-            {/* <Modulos /> */}
-            <Amigos/>
-
-
-
-
-
-
-
-
-=======
                 <ul style={AppStyle.NavMenu}>
-                  <li style={AppStyle.Link}><Link to="/">Home</Link></li>
+                  <li style={AppStyle.Link}><Link to="/Home">Home</Link></li>
                   <li style={AppStyle.Link}><Link to="/Modulos">Modulos</Link></li>
                   <li style={AppStyle.Link}><Link to="/Amigos">Amigos</Link></li>
                   <li style={AppStyle.Link}><Link to="/Carteira">Carteira</Link></li>
                   <li style={AppStyle.Link}><Link to="/Objetivos">Objetivos</Link></li>
+                  <li style={AppStyle.Link}><Link to="/ModuloAberto">Home</Link></li>
                 </ul>
             </aside>
 
             <div style={AppStyle.Alinhar}>
-                <Route exact path="/" component={Home}/>
+                <Route exact path="/Home" component={Home}/>
                 <Route exact path="/Modulos" component={Modulos}/>
                 <Route exact path="/Amigos" component={Amigos}/>
                 <Route exact path="/Carteira" component={Carteira}/>
                 <Route exact path="/Objetivos" component={Objetivo}/>
+                <Route exact path="/" component={ModulosAbertos}/>
             
             </div>
->>>>>>> d6dc28d3471f4581d8d75018a94f97775c3ca982
           </div>
         </Router>
       
+
       </div>
     );
   }
