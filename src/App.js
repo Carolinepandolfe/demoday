@@ -8,6 +8,7 @@ import Objetivo from './componets/Objetivos/Objetivo';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import UserProfileImg from'./user-icon.png';
 import ModulosAbertos from './componets/Modulos/ModulosAbertos/ModulosAbertos';
+import Juros from './componets/Modulos/ModulosAbertos/ExercicioJuros/Juros';
 
 
 class App extends Component {
@@ -21,7 +22,7 @@ class App extends Component {
               <div style={AppStyle.Perfil}>
                 <img src={UserProfileImg} style={AppStyle.PerfilImg} />
                 <h2 style={AppStyle.Nome}>Fabiano</h2>
-                <h3 style={AppStyle.Nivel}>Nível 5</h3>
+                <h3 style={AppStyle.Nivel}>Nível 1</h3>
               </div>
 
                 <ul style={AppStyle.NavMenu}>

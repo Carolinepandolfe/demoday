@@ -10,7 +10,7 @@ class Amigos extends React.Component {
 
                 <img src={UserProfileImg} style={AmigosStyle.PerfilImg} />
                 <h2 style={AmigosStyle.Nome}>Alexia Gabrielly</h2>
-                <h3 style={AmigosStyle.Nivel}>Nível 6</h3>
+                <h3 style={AmigosStyle.Nivel}>Nível 2</h3>
                 <button style={AmigosStyle.Botao}>Visitar Perfil</button>
 
             </div> 
@@ -19,7 +19,7 @@ class Amigos extends React.Component {
 
                 <img src={UserProfileImg} style={AmigosStyle.PerfilImg} />
                 <h2 style={AmigosStyle.Nome}>Caroline Pandolfe</h2>
-                <h3 style={AmigosStyle.Nivel}>Nível 6</h3>
+                <h3 style={AmigosStyle.Nivel}>Nível 1</h3>
                 <button style={AmigosStyle.Botao}>Visitar Perfil</button>
 
             </div>    
@@ -28,7 +28,7 @@ class Amigos extends React.Component {
 
                 <img src={UserProfileImg} style={AmigosStyle.PerfilImg} />
                 <h2 style={AmigosStyle.Nome}>Dirosaki</h2>
-                <h3 style={AmigosStyle.Nivel}>Nível 6</h3>
+                <h3 style={AmigosStyle.Nivel}>Nível 2</h3>
                 <button style={AmigosStyle.Botao}>Visitar Perfil</button>
 
             </div>    
@@ -37,7 +37,7 @@ class Amigos extends React.Component {
 
                 <img src={UserProfileImg} style={AmigosStyle.PerfilImg} />
                 <h2 style={AmigosStyle.Nome}>Giselle</h2>
-                <h3 style={AmigosStyle.Nivel}>Nível 6</h3>
+                <h3 style={AmigosStyle.Nivel}>Nível 2</h3>
                 <button style={AmigosStyle.Botao}>Visitar Perfil</button>
 
             </div>    
@@ -47,7 +47,7 @@ class Amigos extends React.Component {
 
                 <img src={UserProfileImg} style={AmigosStyle.PerfilImg} />
                 <h2 style={AmigosStyle.Nome}>Jenni Costa</h2>
-                <h3 style={AmigosStyle.Nivel}>Nível 6</h3>
+                <h3 style={AmigosStyle.Nivel}>Nível 1</h3>
                 <button style={AmigosStyle.Botao}>Visitar Perfil</button>
 
             </div>    
@@ -56,7 +56,7 @@ class Amigos extends React.Component {
 
                 <img src={UserProfileImg} style={AmigosStyle.PerfilImg} />
                 <h2 style={AmigosStyle.Nome}>Lais</h2>
-                <h3 style={AmigosStyle.Nivel}>Nível 6</h3>
+                <h3 style={AmigosStyle.Nivel}>Nível 2</h3>
                 <button style={AmigosStyle.Botao}>Visitar Perfil</button>
 
             </div>    
