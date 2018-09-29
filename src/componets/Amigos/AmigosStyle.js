@@ -19,7 +19,7 @@ const AmigosStyle = {
         margin:'12px',
         padding: 30,
         backgroundColor:corBranca,
-        borderRadius: 10,
+        borderRadius: 20,
         width: '25%',
         height: 300,              
         boxShadow: '5px 0.9px 50px rgba(0, 0, 0, 0.1)'

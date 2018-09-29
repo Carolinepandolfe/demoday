@@ -16,13 +16,16 @@ class App extends Component {
         <div style={AppStyle.Alinhar}>
           <div style={AppStyle.Dinamico}>
             {/* <Home /> */}
-<<<<<<< HEAD
             {/* <Modulos /> */}
             <Amigos/>
 
-=======
-            <Modulos />
->>>>>>> ccb3b152fca4924933bf1eb677941c887fa1148a
+
+
+
+
+
+
+
           </div>
         </div>
       
