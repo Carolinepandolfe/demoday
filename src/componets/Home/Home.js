@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import HomeStyle from './HomeStyle';
 import ModulosHome from './ModulosHome/ModulosHome';
-import ObetivosHome from './ObjetivosHome/ObjetivosHome';
+import ObjetivosHome from './ObjetivosHome/ObjetivosHome';
 import CarteiraHome from './CarteiraHome/CarteiraHome';
 
 class Home extends Component {
@@ -14,7 +14,7 @@ class Home extends Component {
 
             <div style={HomeStyle.CorpoDinamicoHorizontal}>
                 <div style={HomeStyle.TelaDinamica}>
-                    <ObetivosHome/>  
+                    <ObjetivosHome/>  
                 </div>
 
                 <div style={HomeStyle.TelaDinamica}>

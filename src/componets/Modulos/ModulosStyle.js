@@ -8,7 +8,7 @@ const ModulosStyle = {
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent: 'space-evenly',
-        padding: 30
+        width: '100%'
     },
 
     Painel: {
@@ -38,8 +38,37 @@ const ModulosStyle = {
         color: corRoxo
     },
 
+    ModuloNumeroBoxConcluido:{
+        width: 150,
+        height: 150,
+        backgroundColor: corRoxo,
+        borderRadius: '50%',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        fontSize: 90,
+        color: corAmarelo
+    },
+
+    ModuloNumeroBoxBloqueado:{
+        width: 150,
+        height: 150,
+        backgroundColor: '#ededed',
+        border: `2px solid #777`,
+        borderRadius: '50%',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        fontSize: 90,
+        color: '#777'
+    },
+
     NomeModulo: {
         color: corRoxo,
+    },
+
+    NomeModuloBloqueado: {
+        color: '#777',
     },
 
     BotaoAlinhamento: {
@@ -52,6 +81,27 @@ const ModulosStyle = {
         border: 'solid 2px #570063',
         borderRadius: 10,
         color: corRoxo,
+        fontWeight: 600,
+        fontSize: 18,
+        padding: '15px 90px'
+    },
+
+    BotaoConcluido: {
+        backgroundColor: corBranca,
+        border: 'solid 2px #570063',
+        backgroundColor: corRoxo,
+        borderRadius: 10,
+        color: corAmarelo,
+        fontWeight: 600,
+        fontSize: 18,
+        padding: '15px 90px'
+    },
+
+    BotaoBloqueado: {
+        backgroundColor: corBranca,
+        border: 'solid 2px #777',
+        borderRadius: 10,
+        color: '#777',
         fontWeight: 600,
         fontSize: 18,
         padding: '15px 90px'

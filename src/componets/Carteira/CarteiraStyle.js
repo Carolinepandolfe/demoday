@@ -1,8 +1,9 @@
 const HomeStyle = {
     Corpo: {
         display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'center',
-        maxWidth: '100%'
+        width: '100%'
     },
 
     CorpoDinamico: {
@@ -20,7 +21,8 @@ const HomeStyle = {
     CorpoDinamicoHorizontal: {
         display: 'flex',
         justifyContent: 'space-between',
-        width: '100%'
+        width: '100%',
+        marginTop: 30
     }
 }
 

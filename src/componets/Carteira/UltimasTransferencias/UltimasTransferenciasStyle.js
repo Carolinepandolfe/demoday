@@ -2,23 +2,26 @@ let corRoxo = '#570063';
 let corAmarelo = '#f3ca40';
 let corBranca = '#fff';
 
-const ObjetivosHomeStyle = {
+const UltimasTransferenciasStyle = {
     Painel: {
         backgroundColor: corBranca,
         width: '90%',
         padding: 30,
         borderRadius: 20,
-        boxShadow: '5px 0.9px 50px rgba(0, 0, 0, 0.1)',
-        minHeight: 490
+        boxShadow: '5px 0.9px 50px rgba(0, 0, 0, 0.1)'
     },
 
     NomeModulo: {
         color: corRoxo
     },
 
+    Valor: {
+        color: corAmarelo,
+        fontSize: 30
+    },
+
     ObjetivoItem: {
-        display: 'flex',
-        alignItems: 'flex-start'
+        borderBottom: '1px solid #777'
     },
 
     ObjetivoCheckbox: {
@@ -43,15 +46,8 @@ const ObjetivosHomeStyle = {
         fontWeight: 600,
         fontSize: 15,
         padding: '15px 30px',
-        marginTop: 70
-    },
-
-    icon: {
-        width: 45,
-        height: 45,
-        marginRight: 15,
-        marginTop: 15
-      }
+        marginTop: 30
+    }
 }
 
-export default ObjetivosHomeStyle;
+export default UltimasTransferenciasStyle;
