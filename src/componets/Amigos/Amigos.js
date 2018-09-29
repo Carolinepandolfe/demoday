@@ -36,7 +36,7 @@ class Amigos extends React.Component {
             <div style={AmigosStyle.Amigo1}>
 
                 <img src={UserProfileImg} style={AmigosStyle.PerfilImg} />
-                <h2 style={AmigosStyle.Nome}>Giselli</h2>
+                <h2 style={AmigosStyle.Nome}>Giselle</h2>
                 <h3 style={AmigosStyle.Nivel}>Nível 6</h3>
                 <button style={AmigosStyle.Botao}>Visitar Perfil</button>
 
