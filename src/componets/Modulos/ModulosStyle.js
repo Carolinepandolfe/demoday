@@ -86,6 +86,11 @@ const ModulosStyle = {
         padding: '15px 90px'
     },
 
+    BotaoLink: {
+        textDecoration: "none",
+        color: corRoxo
+    },
+
     BotaoConcluido: {
         backgroundColor: corBranca,
         border: 'solid 2px #570063',

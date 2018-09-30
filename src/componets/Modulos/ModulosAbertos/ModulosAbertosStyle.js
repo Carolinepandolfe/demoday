@@ -30,7 +30,7 @@ const ModulosStyle = {
 
         Video: {
             width: '90%',
-            height: '35%'
+            height: '30%'
         },
 
         Conteudo: {
@@ -63,9 +63,8 @@ const ModulosStyle = {
             width: 170,
             height: 40
     
-        }
+        },
 
-    
 
 }
 

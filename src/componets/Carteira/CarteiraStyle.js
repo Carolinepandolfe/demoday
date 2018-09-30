@@ -15,7 +15,7 @@ const HomeStyle = {
     },
 
     TelaDinamica: {
-        width: '49.5%'
+        width: '48%'
     },
 
     CorpoDinamicoHorizontal: {

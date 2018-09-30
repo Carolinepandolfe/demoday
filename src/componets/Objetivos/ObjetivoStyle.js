@@ -30,7 +30,7 @@ const ObjetivoStyle = {
 
   division: {
     backgroundColor: 'white',
-    width: '95%',
+    width: '110%',
     borderRadius: 10,
     display: 'flex',
     alignItems: 'flex-start',

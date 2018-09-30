@@ -22,16 +22,16 @@ class App extends Component {
               <div style={AppStyle.Perfil}>
                 <img src={UserProfileImg} style={AppStyle.PerfilImg} />
                 <h2 style={AppStyle.Nome}>Fabiano</h2>
-                <h3 style={AppStyle.Nivel}>Nível 1</h3>
+                <h3 style={AppStyle.Nivel}>Nível 2</h3>
               </div>
 
                 <ul style={AppStyle.NavMenu}>
-                  <li style={AppStyle.Link}><Link to="/Home">Home</Link></li>
-                  <li style={AppStyle.Link}><Link to="/Modulos">Modulos</Link></li>
-                  <li style={AppStyle.Link}><Link to="/Amigos">Amigos</Link></li>
-                  <li style={AppStyle.Link}><Link to="/Carteira">Carteira</Link></li>
-                  <li style={AppStyle.Link}><Link to="/Objetivos">Objetivos</Link></li>
-                  <li style={AppStyle.Link}><Link to="/ModuloAberto">Home</Link></li>
+                  <li style={AppStyle.Link}><Link to="/Home" style={AppStyle.Link}>Home</Link></li>
+                  <li style={AppStyle.Link}><Link to="/Modulos" style={AppStyle.Link} >Módulos</Link></li>
+                  <li style={AppStyle.Link}><Link to="/Amigos" style={AppStyle.Link}>Amigos</Link></li>
+                  <li style={AppStyle.Link}><Link to="/Carteira" style={AppStyle.Link}>Carteira</Link></li>
+                  <li style={AppStyle.Link}><Link to="/Objetivos" style={AppStyle.Link}>Objetivos</Link></li>
+                  <li ><Link to="/ModuloAberto" style={AppStyle.LinkInvisivel}>Modelo Aberto</Link></li>
                 </ul>
             </aside>
 
@@ -41,7 +41,7 @@ class App extends Component {
                 <Route exact path="/Amigos" component={Amigos}/>
                 <Route exact path="/Carteira" component={Carteira}/>
                 <Route exact path="/Objetivos" component={Objetivo}/>
-                <Route exact path="/" component={ModulosAbertos}/>
+                <Route exact path="/ModuloAberto" component={ModulosAbertos}/>
             
             </div>
           </div>

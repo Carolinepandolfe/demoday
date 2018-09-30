@@ -45,6 +45,10 @@ const AppStyle = {
         padding: 20,
         fontWeight: 700
     },
+    
+    LinkInvisivel: {
+        color: corBranca
+    },
 
     Nome: {
         color: corRoxo
