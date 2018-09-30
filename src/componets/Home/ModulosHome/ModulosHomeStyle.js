@@ -41,6 +41,11 @@ const ModulosHomeStyle = {
         justifyContent: 'flex-end'
     },
 
+    BotaoLink: {
+        textDecoration: "none",
+        color: corRoxo
+    },
+
     Botao: {
         backgroundColor: corBranca,
         border: 'solid 2px #570063',

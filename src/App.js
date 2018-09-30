@@ -6,7 +6,7 @@ import Amigos from './componets/Amigos/Amigos';
 import Carteira from './componets/Carteira/Carteira';
 import Objetivo from './componets/Objetivos/Objetivo';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import UserProfileFabiano from'./fabiano.jpg';
+import UserProfileFabiano from'./fabiano.jpeg';
 import ModulosAbertos from './componets/Modulos/ModulosAbertos/ModulosAbertos';
 import Juros from './componets/Modulos/ModulosAbertos/ExercicioJuros/Juros';
 

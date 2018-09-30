@@ -25,7 +25,7 @@ class Modulos extends Component {
             <p>Seja na hora de tomar um empréstimo, de escolher um investimento ou mesmo quando se paga um boleto em atraso, lá estão os juros fazendo toda a diferença nas contas pessoais e familiares.</p>
 
             <div style={ModulosStyle.BotaoAlinhamento}>
-                <button style={ModulosStyle.Botao}> <Link to="/ModuloAberto" style={ModulosStyle.BotaoLink}> Começar </Link> </button>
+                <button style={ModulosStyle.Botao}> <Link to="/ModuloAberto" style={ModulosStyle.BotaoLink}> Continuar </Link> </button>
             </div>
         </div>
 

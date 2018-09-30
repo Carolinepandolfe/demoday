@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ModulosHomeStyle from './ModulosHomeStyle';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class ModulosHome extends Component {
   render() {
@@ -15,7 +16,7 @@ class ModulosHome extends Component {
             </div>
                 <p>Seja na hora de tomar um empréstimo, de escolher um investimento ou mesmo quando se paga um boleto em atraso, lá estão os juros fazendo toda a diferença nas contas pessoais e familiares.</p>
             <div style={ModulosHomeStyle.BotaoAlinhamento}>
-                <button style={ModulosHomeStyle.Botao}>Continuar</button>
+            <button style={ModulosHomeStyle.Botao}> <Link to="/ModuloAberto" style={ModulosHomeStyle.BotaoLink}> Continuar </Link> </button>
             </div>
         </div>
     );
