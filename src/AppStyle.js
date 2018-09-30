@@ -28,7 +28,7 @@ const AppStyle = {
 
     PerfilImg: {
         width: 160,
-        height: 175,
+        height: 160,
         borderRadius: 100
     },
 

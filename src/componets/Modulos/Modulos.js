@@ -11,10 +11,10 @@ class Modulos extends Component {
             <div style={ModulosStyle.ModuloNumeroBoxConcluido}>1</div>
         
             <h2 style={ModulosStyle.NomeModulo}>O que é educação financeira</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem alias dicta tempore est animi repellat totam odio! Nulla, quisquam beatae molestias ut, at repellendus dolores provident, fugiat odit optio voluptas?</p>
+            <p> É um conhecimento essencial para todas as pessoas. É vital saber lidar com juros, aprender sobre a inflação, como investir e entre os outros assuntos. Aprenda de uma vez o que é educação financeira!</p>
                 
             <div style={ModulosStyle.BotaoAlinhamento}>
-                <button style={ModulosStyle.BotaoConcluido}>Concluido</button>
+                <button style={ModulosStyle.BotaoConcluido}>Concluído</button>
             </div>
         </div>
         

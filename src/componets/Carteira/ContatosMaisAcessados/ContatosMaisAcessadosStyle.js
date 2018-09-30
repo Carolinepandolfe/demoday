@@ -29,7 +29,8 @@ const ContatosMaisAcessadosStyle = {
     PerfilImg: {
         width: 80,
         height: 80,
-        marginRight: 30
+        marginRight: 30,
+        borderRadius: 70
     }
 }
 

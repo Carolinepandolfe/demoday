@@ -62,7 +62,7 @@ const InvestimentosStyle = {
     },
 
     GraficoImg: {
-        maxWidth: 500
+        maxWidth: 470
     }
 }
 

@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import ContatosMaisAcessadosStyle from './ContatosMaisAcessadosStyle';
-import UserProfileImg from'./user-icon.png';
+
+import UserProfileAlexia from'./alexia.jpeg';
+import UserProfileCarol from'./carol.jpg';
+import UserProfileGi from'./Gi.jpg';
 
 class ContatosMaisAcessados extends Component {
   render() {
@@ -8,25 +11,25 @@ class ContatosMaisAcessados extends Component {
         <div style={ContatosMaisAcessadosStyle.Painel}>
             <h2 style={ContatosMaisAcessadosStyle.NomeModulo}>Contatos Mais Acessados</h2>
             <div style={ContatosMaisAcessadosStyle.ObjetivoItem}>
-                <img src={UserProfileImg} style={ContatosMaisAcessadosStyle.PerfilImg} />
+                <img src={UserProfileGi} style={ContatosMaisAcessadosStyle.PerfilImg} />
                 <div>
-                    <h2 style={ContatosMaisAcessadosStyle.Valor}>Nome do contato</h2>
+                    <h2 style={ContatosMaisAcessadosStyle.Valor}>Giselle</h2>
                     <p>Total: $ 80,00</p>
                 </div>
             </div>
 
             <div style={ContatosMaisAcessadosStyle.ObjetivoItem}>
-                <img src={UserProfileImg} style={ContatosMaisAcessadosStyle.PerfilImg} />
+                <img src={UserProfileAlexia} style={ContatosMaisAcessadosStyle.PerfilImg} />
                 <div>
-                    <h2 style={ContatosMaisAcessadosStyle.Valor}>Nome do contato</h2>
+                    <h2 style={ContatosMaisAcessadosStyle.Valor}>Alexia Gabrielly</h2>
                     <p>Total: $ 80,00</p>
                 </div>
             </div>
 
             <div style={ContatosMaisAcessadosStyle.ObjetivoItem}>
-                <img src={UserProfileImg} style={ContatosMaisAcessadosStyle.PerfilImg} />
+                <img src={UserProfileCarol} style={ContatosMaisAcessadosStyle.PerfilImg} />
                 <div>
-                    <h2 style={ContatosMaisAcessadosStyle.Valor}>Nome do contato</h2>
+                    <h2 style={ContatosMaisAcessadosStyle.Valor}>Caroline Pandolfe</h2>
                     <p>Total: $ 80,00</p>
                 </div>
             </div>

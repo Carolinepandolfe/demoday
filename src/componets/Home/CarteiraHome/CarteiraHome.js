@@ -7,18 +7,18 @@ class CarteiraHome extends Component {
         <div style={CarteiraHomeStyle.Painel}>
             <h2 style={CarteiraHomeStyle.NomeModulo}>Últimas Transferências</h2>
             <div style={CarteiraHomeStyle.ObjetivoItem}>
-                <h2 style={CarteiraHomeStyle.Valor}>$ 20,00 +</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <h2 style={CarteiraHomeStyle.Valor}>$ 20,00 -</h2>
+                <p> Enviado para Jenni Costa </p>
             </div>
 
             <div style={CarteiraHomeStyle.ObjetivoItem}>
-                <h2 style={CarteiraHomeStyle.Valor}>$ 20,00 +</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <h2 style={CarteiraHomeStyle.Valor}>$ 50,00 +</h2>
+                <p> Seu investimento na Empresa 1 rendeu! </p>
             </div>
 
             <div style={CarteiraHomeStyle.ObjetivoItem}>
-                <h2 style={CarteiraHomeStyle.Valor}>$ 20,00 +</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <h2 style={CarteiraHomeStyle.Valor}>$ 40,00 -</h2>
+                <p> Seu investimento na Empresa 2 não rendeu! </p>
             </div>
 
             <div style={CarteiraHomeStyle.BotaoAlinhamento}>
