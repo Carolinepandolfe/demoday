@@ -7,24 +7,25 @@ class Modulos extends Component {
   render() {
     return (
       <div style={ModulosStyle.CorpoDinamico}>
-        
         <div style={ModulosStyle.Painel}>
-            <div style={ModulosStyle.ModuloNumeroBox}>1</div>
+            <div style={ModulosStyle.ModuloNumeroBoxConcluido}>1</div>
+        
             <h2 style={ModulosStyle.NomeModulo}>O que é educação financeira</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem alias dicta tempore est animi repellat totam odio! Nulla, quisquam beatae molestias ut, at repellendus dolores provident, fugiat odit optio voluptas?</p>
                 
             <div style={ModulosStyle.BotaoAlinhamento}>
-                <button style={ModulosStyle.Botao}> <Link to="/ModuloAberto" style={ModulosStyle.BotaoLink}> Começar </Link> </button>
+                <button style={ModulosStyle.BotaoConcluido}>Concluido</button>
             </div>
         </div>
-
+        
         <div style={ModulosStyle.Painel}>
-            <div style={ModulosStyle.ModuloNumeroBoxConcluido}>2</div>
+            <div style={ModulosStyle.ModuloNumeroBox}>2</div>
+
             <h2 style={ModulosStyle.NomeModulo}>Juros</h2>
             <p>Seja na hora de tomar um empréstimo, de escolher um investimento ou mesmo quando se paga um boleto em atraso, lá estão os juros fazendo toda a diferença nas contas pessoais e familiares.</p>
 
             <div style={ModulosStyle.BotaoAlinhamento}>
-                <button style={ModulosStyle.BotaoConcluido}>Concluído</button>
+                <button style={ModulosStyle.Botao}> <Link to="/ModuloAberto" style={ModulosStyle.BotaoLink}> Começar </Link> </button>
             </div>
         </div>
 
