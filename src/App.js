@@ -26,7 +26,7 @@ class App extends Component {
               </div>
 
                 <ul style={AppStyle.NavMenu}>
-                  <li style={AppStyle.Link}><Link to="/Home" style={AppStyle.Link}>Home</Link></li>
+                  <li style={AppStyle.Link}><Link to="/" style={AppStyle.Link}>Home</Link></li>
                   <li style={AppStyle.Link}><Link to="/Modulos" style={AppStyle.Link} >Módulos</Link></li>
                   <li style={AppStyle.Link}><Link to="/Amigos" style={AppStyle.Link}>Amigos</Link></li>
                   <li style={AppStyle.Link}><Link to="/Carteira" style={AppStyle.Link}>Carteira</Link></li>
@@ -36,7 +36,7 @@ class App extends Component {
             </aside>
 
             <div style={AppStyle.Alinhar}>
-                <Route exact path="/Home" component={Home}/>
+                <Route exact path="/" component={Home}/>
                 <Route exact path="/Modulos" component={Modulos}/>
                 <Route exact path="/Amigos" component={Amigos}/>
                 <Route exact path="/Carteira" component={Carteira}/>
