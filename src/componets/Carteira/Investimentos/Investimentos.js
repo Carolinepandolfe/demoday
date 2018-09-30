@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import InvestimentosStyle from './InvestimentosStyle';
-import Grafico from'./grafico.png';
+import Grafico from'./grafico.jpg';
 
 class Investimentos extends Component {
   render() {
