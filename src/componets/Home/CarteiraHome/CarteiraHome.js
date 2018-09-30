@@ -13,12 +13,12 @@ class CarteiraHome extends Component {
 
             <div style={CarteiraHomeStyle.ObjetivoItem}>
                 <h2 style={CarteiraHomeStyle.Valor}>$ 50,00 +</h2>
-                <p> Seu investimento na Empresa 1 rendeu! </p>
+                <p> Recebido de Laís Sayuri </p>
             </div>
 
             <div style={CarteiraHomeStyle.ObjetivoItem}>
-                <h2 style={CarteiraHomeStyle.Valor}>$ 40,00 -</h2>
-                <p> Seu investimento na Empresa 2 não rendeu! </p>
+                <h2 style={CarteiraHomeStyle.Valor}>$ 40,00 +</h2>
+                <p> Recebido de Dirosaki </p>
             </div>
 
             <div style={CarteiraHomeStyle.BotaoAlinhamento}>
