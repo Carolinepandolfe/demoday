@@ -27,8 +27,9 @@ const AppStyle = {
     },
 
     PerfilImg: {
-        width: 150,
-        height: 150
+        width: 160,
+        height: 175,
+        borderRadius: 100
     },
 
     NavMenu: {

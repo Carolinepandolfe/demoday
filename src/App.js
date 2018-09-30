@@ -6,7 +6,7 @@ import Amigos from './componets/Amigos/Amigos';
 import Carteira from './componets/Carteira/Carteira';
 import Objetivo from './componets/Objetivos/Objetivo';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import UserProfileImg from'./user-icon.png';
+import UserProfileFabiano from'./fabiano.jpg';
 import ModulosAbertos from './componets/Modulos/ModulosAbertos/ModulosAbertos';
 import Juros from './componets/Modulos/ModulosAbertos/ExercicioJuros/Juros';
 
@@ -20,7 +20,7 @@ class App extends Component {
             <aside style={AppStyle.Menu}>
 
               <div style={AppStyle.Perfil}>
-                <img src={UserProfileImg} style={AppStyle.PerfilImg} />
+                <img src={UserProfileFabiano} style={AppStyle.PerfilImg} />
                 <h2 style={AppStyle.Nome}>Fabiano</h2>
                 <h3 style={AppStyle.Nivel}>Nível 2</h3>
               </div>

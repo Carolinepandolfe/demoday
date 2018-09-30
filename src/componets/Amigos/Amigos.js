@@ -1,5 +1,10 @@
 import React from 'react';
-import UserProfileImg from'./user-icon.png';
+import UserProfileAlexia from'./alexia.jpeg';
+import UserProfileCarol from'./carol.jpg';
+import UserProfileDiego from'./diego.jpg';
+import UserProfileGi from'./Gi.jpg';
+import UserProfileJeni from'./jeni.jpg';
+import UserProfileLais from'./lais.jpg';
 import AmigosStyle from './AmigosStyle';
 
 class Amigos extends React.Component {
@@ -8,7 +13,7 @@ class Amigos extends React.Component {
         <div style={AmigosStyle.Amigos}>
             <div style={AmigosStyle.Amigo1}>
 
-                <img src={UserProfileImg} style={AmigosStyle.PerfilImg} />
+                <img src={UserProfileAlexia} style={AmigosStyle.PerfilImg} />
                 <h2 style={AmigosStyle.Nome}>Alexia Gabrielly</h2>
                 <h3 style={AmigosStyle.Nivel}>Nível 2</h3>
                 <button style={AmigosStyle.Botao}>Visitar Perfil</button>
@@ -17,7 +22,7 @@ class Amigos extends React.Component {
 
             <div style={AmigosStyle.Amigo1}>
 
-                <img src={UserProfileImg} style={AmigosStyle.PerfilImg} />
+                <img src={UserProfileCarol} style={AmigosStyle.PerfilImg} />
                 <h2 style={AmigosStyle.Nome}>Caroline Pandolfe</h2>
                 <h3 style={AmigosStyle.Nivel}>Nível 1</h3>
                 <button style={AmigosStyle.Botao}>Visitar Perfil</button>
@@ -26,7 +31,7 @@ class Amigos extends React.Component {
 
             <div style={AmigosStyle.Amigo1}>
 
-                <img src={UserProfileImg} style={AmigosStyle.PerfilImg} />
+                <img src={UserProfileDiego} style={AmigosStyle.PerfilImg} />
                 <h2 style={AmigosStyle.Nome}>Dirosaki</h2>
                 <h3 style={AmigosStyle.Nivel}>Nível 2</h3>
                 <button style={AmigosStyle.Botao}>Visitar Perfil</button>
@@ -35,7 +40,7 @@ class Amigos extends React.Component {
 
             <div style={AmigosStyle.Amigo1}>
 
-                <img src={UserProfileImg} style={AmigosStyle.PerfilImg} />
+                <img src={UserProfileGi} style={AmigosStyle.PerfilImg} />
                 <h2 style={AmigosStyle.Nome}>Giselle</h2>
                 <h3 style={AmigosStyle.Nivel}>Nível 2</h3>
                 <button style={AmigosStyle.Botao}>Visitar Perfil</button>
@@ -45,7 +50,7 @@ class Amigos extends React.Component {
 
              <div style={AmigosStyle.Amigo1}>
 
-                <img src={UserProfileImg} style={AmigosStyle.PerfilImg} />
+                <img src={UserProfileJeni} style={AmigosStyle.PerfilImg} />
                 <h2 style={AmigosStyle.Nome}>Jenni Costa</h2>
                 <h3 style={AmigosStyle.Nivel}>Nível 1</h3>
                 <button style={AmigosStyle.Botao}>Visitar Perfil</button>
@@ -54,7 +59,7 @@ class Amigos extends React.Component {
 
              <div style={AmigosStyle.Amigo1}>
 
-                <img src={UserProfileImg} style={AmigosStyle.PerfilImg} />
+                <img src={UserProfileLais} style={AmigosStyle.PerfilImg} />
                 <h2 style={AmigosStyle.Nome}>Lais</h2>
                 <h3 style={AmigosStyle.Nivel}>Nível 2</h3>
                 <button style={AmigosStyle.Botao}>Visitar Perfil</button>

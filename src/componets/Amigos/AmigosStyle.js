@@ -26,8 +26,9 @@ const AmigosStyle = {
     },
 
     PerfilImg: {
-        width: 100,
-        height: 100
+        width: 120,
+        height: 120,
+        borderRadius:70,
     },
 
     Nome: {
